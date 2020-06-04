@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Tablas</title>
+</head>
+<body>
+    <!-- Etiqueta "table" crear tabla, atributo "border" definir tamaño de border -->
+    <table border="1">
+        <tr><!-- Crear filas -->
+            <td>Codigo</td><!-- Crear Columnas -->
+            <td>Productos</td>
+            <td>Valor</td>
+        </tr>
+        <tr>
+            <td>com001</td>
+            <td>Computador</td>
+            <td>100.000</td>
+        </tr>
+        <tr>
+            <td>com002</td>
+            <td>Mouse</td>
+            <td>20.000</td>
+        </tr>
+        <tr>
+            <td>com003</td>
+            <td>Teclado</td>
+            <td>15.000</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Total</td>
+            <td>135.000</td>
+        </tr>
+    </table> 
+    
+    <!-- Tablas Estructuradas -->
+    <table border="1">
+    <thead><!-- Parte superior de la tabla -->
+        <th>Codigo</th> <!-- Th para poner el contenido en negrilla -->
+        <th>Productos</th>
+        <th>Valor</th>
+    </thead>
+    <tbody><!-- Cuerpo de la tabla -->
+        <tr>
+            <td>com001</td>
+            <td>Computador</td>
+            <td>100.000</td>
+        </tr>
+        <tr>
+            <td>com002</td>
+            <td>Mouse</td>
+            <td>20.000</td>
+        </tr>
+        <tr>
+            <td>com003</td>
+            <td>Teclado</td>
+            <td>15.000</td>
+        </tr>
+    </tbody>
+    <tfoot><!-- Final de la tabla -->
+        <!-- Atributo colpsan para unir columnas y editar la tabla -->
+        <!-- Atributo rowspan para unir filas y editar la tabla -->
+        <th colspan="2" rowspan="2">Total</th>
+        <td>135.000</td>
+    </tfoot>
+    </table>
+</body>
+</html>
