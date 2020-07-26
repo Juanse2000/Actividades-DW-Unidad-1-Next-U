@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable:no">
+    <title>Validacion html5</title>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>Validacion de formularios</legend>
+            <p>
+                <label for="nombres">Nombres</label>
+                <input id="nombres" type="text" placeholder="Ingrese sus nombres" size="50px" required
+                >
+                <!-- Atributo Required:
+                Valida que los campos en los input esten llenos, asi como tambien que cumplan con el tipo de input al que corresponden-->
+            </p>
+            <p>
+                <label for="apellidos">Apellidos</label>
+                <input id="apellidos" type="text" placeholder="Ingrese sus apellidos" size="50px">
+            </p>
+            <p>
+                <label for="u_email">Correo electronico</label>
+                <input id="u_id" type="email" placeholder="Ingrese su correo electronico" size="50px">
+            </p>
+            <p>
+                <label for="edad">Edad</label>
+                <input id="edad" type="number" placeholder="Ingrese su edad" size="50px">
+            </p>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
